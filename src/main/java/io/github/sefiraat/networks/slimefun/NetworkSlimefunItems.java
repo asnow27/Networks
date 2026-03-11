@@ -87,6 +87,7 @@ public class NetworkSlimefunItems {
     public static final NetworkQuantumStorage NETWORK_QUANTUM_STORAGE_6;
     public static final NetworkQuantumStorage NETWORK_QUANTUM_STORAGE_7;
     public static final NetworkQuantumStorage NETWORK_QUANTUM_STORAGE_8;
+    public static final NetworkQuantumStorage NETWORK_QUANTUM_STORAGE_9;
     public static final NetworkPowerNode NETWORK_CAPACITOR_1;
     public static final NetworkPowerNode NETWORK_CAPACITOR_2;
     public static final NetworkPowerNode NETWORK_CAPACITOR_3;
@@ -566,6 +567,20 @@ public class NetworkSlimefunItems {
             NetworkQuantumStorage.getSizes()[7]
         );
 
+        NETWORK_QUANTUM_STORAGE_9 = new NetworkQuantumStorage(
+            NetworksItemGroups.NETWORK_QUANTUMS,
+            NetworksSlimefunItemStacks.NETWORK_QUANTUM_STORAGE_9,
+            NetworkQuantumWorkbench.TYPE,
+            new ItemStack[]{
+                OPTIC_GLASS.getItem(), SlimefunItems.BLISTERING_INGOT_3, OPTIC_GLASS.getItem(),
+                SlimefunItems.CARGO_MANAGER, NETWORK_QUANTUM_STORAGE_7.getItem(), SlimefunItems.BLISTERING_INGOT_2,
+                OPTIC_GLASS.getItem(), SlimefunItems.BLISTERING_INGOT_3, OPTIC_GLASS.getItem()
+            },
+            NetworkQuantumStorage.getSizes()[8]
+        );
+
+        );
+
         NETWORK_CAPACITOR_1 = new NetworkPowerNode(
             NetworksItemGroups.NETWORK_ITEMS,
             NetworksSlimefunItemStacks.NETWORK_CAPACITOR_1,
@@ -877,6 +892,7 @@ public class NetworkSlimefunItems {
         NETWORK_QUANTUM_STORAGE_6.register(plugin);
         NETWORK_QUANTUM_STORAGE_7.register(plugin);
         NETWORK_QUANTUM_STORAGE_8.register(plugin);
+        NETWORK_QUANTUM_STORAGE_9.register(plugin);
         NETWORK_CAPACITOR_1.register(plugin);
         NETWORK_CAPACITOR_2.register(plugin);
         NETWORK_CAPACITOR_3.register(plugin);
