@@ -53,7 +53,8 @@ public class NetworkQuantumStorage extends SlimefunItem implements DistinctiveIt
         16777216,
         134217728,
         1073741824,
-        Integer.MAX_VALUE
+        Integer.MAX_VALUE,
+        20075924500
     };
 
     public static final String BS_AMOUNT = "stored_amount";
