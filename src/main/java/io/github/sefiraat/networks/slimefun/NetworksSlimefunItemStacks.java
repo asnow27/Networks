@@ -210,7 +210,7 @@ public class NetworksSlimefunItemStacks {
             "NTW_CONTROLLER",
             new ItemStack(Material.BLACK_STAINED_GLASS),
             Theme.MACHINE,
-            "Network Controller"
+            "Network Controller By asno"
             , "The Network controller is the brain",
             "for the whole network. Max 1 per network."
         );
@@ -521,6 +521,17 @@ public class NetworksSlimefunItemStacks {
             Theme.MACHINE,
             "Network Quantum Storage (∞)",
             "Stores ∞ items... almost",
+            "",
+            "Stores items in mass quantities within",
+            "a quantum singularity."
+        );
+
+        NETWORK_QUANTUM_STORAGE_9 = Theme.themedSlimefunItemStack(
+            "NTW_QUANTUM_STORAGE_9",
+            new ItemStack(Material.YELLOW_TERRACOTTA),
+            Theme.MACHINE,
+            "Network Quantum Storage (20b)",
+            "Stores adalahpokonya items... almost",
             "",
             "Stores items in mass quantities within",
             "a quantum singularity."
