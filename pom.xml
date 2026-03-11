@@ -116,30 +116,15 @@
 
     <repositories>
         <repository>
-            <id>spigot-repo</id>
-            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
-        </repository>
-        <repository>
             <id>jitpack.io</id>
             <url>https://jitpack.io</url>
         </repository>
         <repository>
-            <id>slimefun-repo</id>
-            <url>https://blob.build/repository/maven-public/</url>
-        </repository>
-        <repository>
-            <id>bg-software</id>
-            <url>https://repo.bg-software.com/repository/api/</url>
-        </repository>
-        <repository>
-            <id>mcmmo-repo</id>
-            <url>https://nexus.scarsz.me/content/groups/public/</url>
-        </repository>
-        <repository>
-            <id>jeff-media-repo</id>
-            <url>https://repo.jeff-media.com/public/</url>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
     </repositories>
+
 
          
     <dependencies>
