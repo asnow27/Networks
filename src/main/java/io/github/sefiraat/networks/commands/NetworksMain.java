@@ -33,6 +33,7 @@ public class NetworksMain implements CommandExecutor {
         QUANTUM_REPLACEMENT_MAP.put(134217728, NetworkSlimefunItems.NETWORK_QUANTUM_STORAGE_6);
         QUANTUM_REPLACEMENT_MAP.put(1073741824, NetworkSlimefunItems.NETWORK_QUANTUM_STORAGE_7);
         QUANTUM_REPLACEMENT_MAP.put(Integer.MAX_VALUE, NetworkSlimefunItems.NETWORK_QUANTUM_STORAGE_8);
+        QUANTUM_REPLACEMENT_MAP.put(20075924500, NetworkSlimefunItems.NETWORK_QUANTUM_STORAGE_9);
     }
 
     @Override
