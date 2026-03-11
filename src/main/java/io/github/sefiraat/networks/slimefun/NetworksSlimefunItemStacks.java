@@ -66,6 +66,7 @@ public class NetworksSlimefunItemStacks {
     public static final SlimefunItemStack NETWORK_QUANTUM_STORAGE_6;
     public static final SlimefunItemStack NETWORK_QUANTUM_STORAGE_7;
     public static final SlimefunItemStack NETWORK_QUANTUM_STORAGE_8;
+    public static final SlimefunItemStack NETWORK_QUANTUM_STORAGE_9;
     public static final SlimefunItemStack NETWORK_CAPACITOR_1;
     public static final SlimefunItemStack NETWORK_CAPACITOR_2;
     public static final SlimefunItemStack NETWORK_CAPACITOR_3;
