@@ -114,7 +114,7 @@
     </build>
 
 
-   <repositories>
+    <repositories>
         <repository>
             <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
@@ -127,7 +127,20 @@
             <id>slimefun-repo</id>
             <url>https://blob.build/repository/maven-public/</url>
         </repository>
+        <repository>
+            <id>bg-software</id>
+            <url>https://repo.bg-software.com/repository/api/</url>
+        </repository>
+        <repository>
+            <id>mcmmo-repo</id>
+            <url>https://nexus.scarsz.me/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>jeff-media-repo</id>
+            <url>https://repo.jeff-media.com/public/</url>
+        </repository>
     </repositories>
+
          
     <dependencies>
         <!-- Core -->
